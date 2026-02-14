@@ -50,10 +50,6 @@ All contributions are welcome! Simply raise an issue or open a pull request with
 
 There existed support for a Unity plugin, however, it is currently in a non-functional state. Pull requests to restore this support would be welcomed!
 
-## Licensing ##
-
-The library is licensed under the [MIT](https://opensource.org/licenses/MIT) license. This means you're free to modify the source and use the library in whatever way you want, as long as you attribute the original authors. The native library is licensed under the [3-Clause BSD](https://opensource.org/licenses/BSD-3-Clause) license. Please be kind enough to include the licensing text file (it contains both licenses).
-
 ## More Projects by the Original Author ##
 
 [TeximpNet](https://bitbucket.org/Starnick/teximpnet) - A wrapper for the Nvidia Texture Tools and FreeImage libraries.
