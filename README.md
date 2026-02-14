@@ -2,10 +2,10 @@
 
 **The latest release can be downloaded via [NuGet](https://www.nuget.org/packages/AssimpNetter/).**
 
-[![Continuous Integration](https://github.com/Saalvage/AssimpNetter/actions/workflows/ci.yml/badge.svg)](https://github.com/Saalvage/AssimpNetter/actions/workflows/ci.yml)
+[![Continuous Integration](https://github.com/Unity-Billal-mesloub/AssimpNetter/actions/workflows/ci.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/AssimpNetter/actions/workflows/ci.yml)
 
 ## Introduction ##
-This is a maintained, modern fork of [**AssimpNet**](https://bitbucket.org/Starnick/assimpnet/), the cross-platform .NET wrapper for the Open Asset Import Library (otherwise known as [Assimp](https://github.com/assimp/assimp)), which is a 3D model import-export library. The primary motivation is for this library to power (offline) content pipelines to import and process 3D models into your game engine's internal format, although the wrapper can be used at runtime to enable your users to import custom content. Please see the Assimp website for a full list of supported formats and features. Each version of the managed wrapper tries to maintain parity with the features of the native version.
+This is a maintained, modern fork of [**AssimpNet**](https://bitbucket.org/Starnick/assimpnet/), the cross-platform .NET wrapper for the Open Asset Import Library (otherwise known as [Assimp](https://github.com/Unity-Billal-mesloub/assimp)), which is a 3D model import-export library. The primary motivation is for this library to power (offline) content pipelines to import and process 3D models into your game engine's internal format, although the wrapper can be used at runtime to enable your users to import custom content. Please see the Assimp website for a full list of supported formats and features. Each version of the managed wrapper tries to maintain parity with the features of the native version.
 
 P/Invoke is used to communicate with the C-API of the native library. The managed assembly is compiled as **AnyCpu** and the native binaries are loaded dynamically for either 32 or 64 bit x86, as well as ARM64 applications.
 
@@ -40,7 +40,7 @@ The NuGet package supports the following Operating Systems and Architectures out
 
 You may have to build and provide your own native binaries for a target platform that is not listed. If the library does not support a platform you are targeting, please let us know or contribute an implementation! The logic to dynamically load the native library is abstracted, so new platform implementations can easily be added.
 
-All included binaries are built transparently using GitHub Actions on [this fork](https://github.com/Saalvage/assimp/).
+All included binaries are built transparently using GitHub Actions on [this fork](https://github.com/Unity-Billal-mesloub/assimp/).
 
 ## Questions & Contributing ##
 
